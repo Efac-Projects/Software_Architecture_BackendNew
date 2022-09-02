@@ -13,6 +13,8 @@ import java.util.List;
 @RestController
 public class SensorController {
 
+    // sensor controller
+
     @Autowired
     private SensorService sensorService;
 
@@ -25,5 +27,7 @@ public class SensorController {
     public List<Sensor> getData() {
         return sensorService.getData();
     }
+
+
 
 }
